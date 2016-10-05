@@ -1,0 +1,64 @@
+.header{
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.greeting-session{
+    letter-spacing: -1px;
+    text-shadow: 1px 1px 8px rgba(150, 150, 150, 1);
+}
+
+.fixed-header-on .header{
+    background-color: rgba(255, 255, 255, 0.90);
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.fixed-header-on .site-name a, .fixed-header-on .site-slogan{
+    color:#37302d ;
+}
+
+.main-navigation .navbar-default .navbar-nav > li.active > a{
+    color:#c8e9ef;
+}
+
+.fixed-header-on .main-navigation .navbar-default .navbar-nav > li.active > a{
+    color:#f48796 ;
+}
+
+.fixed-header-on .main-navigation .navbar-default .navbar-nav > li > a{
+    color:#37302d;
+}
+
+.banner:after{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.text-thin{
+    font-weight: 300;
+}
+
+.bg-texture{
+    background: url(../images/bg_texture.png);
+    text-shadow: 1px 1px 8px rgba(150, 150, 150, 1);
+}
+
+.overlay{
+    background-color: rgba(244, 135, 150, 0.0);
+}
+
+.modal-header{
+    background: #fff;
+}
+
+.modal-header h4, .modal-header .close{
+    color:#37302d;
+}
+
+.main-navigation .navbar-default .navbar-nav > li > a:hover, .main-navigation .navbar-default .navbar-nav > li.active > a:hover{
+    color:#fff;
+}
+
+@media only screen and (max-width : 640px) {
+    .greeting-session h1{
+        font-size: 24px;
+    }
+}
